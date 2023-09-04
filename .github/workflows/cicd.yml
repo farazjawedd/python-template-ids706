@@ -1,9 +1,10 @@
-name: CI
+name: CiCd
+
 on:
   push:
-    branches: [ "GPU" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "GPU" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
