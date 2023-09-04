@@ -1,11 +1,4 @@
-"""
-Test goes here
+from main import mini_subtract
 
-"""
-
-# from mylib.calculator import add
-
-
-# def test_add():
-#     assert add(1, 2) == 3
-pass
+def test_mini_subtract():
+    assert mini_subtract(2,1) == 1
