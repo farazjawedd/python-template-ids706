@@ -1,11 +1,10 @@
 """
-Main cli or app entry point
+"""
+some code 
 """
 
-import numpy as np
+def mini_subtract(x,y):
+    return x - y 
 
-
-if __name__ == "__main__":
-    # pylint: disable=no-value-for-parameter
-    arr = np.array([1, 2, 3])
-    print('Done.')
+if __name__ == '__main__':
+    print(mini_subtract(2,1))
