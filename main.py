@@ -1,10 +1,13 @@
 """
-"""
-some code 
+Some code for sanity checking template
 """
 
-def mini_subtract(x,y):
-    return x - y 
+def sanity_add(x, y):
+    return x + y
 
 if __name__ == '__main__':
-    print(mini_subtract(2,1))
+    a = 1
+    b = 2
+
+    print(sanity_add(a, b))
+  
