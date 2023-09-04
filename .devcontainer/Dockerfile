@@ -9,7 +9,7 @@ RUN apt-get update && apt-get -y install --no-install-recommends \
    python3.8-venv \
    gcc 
    
-ARG USER="rmr_code"
+ARG USER="farazjawedd"
 ARG VENV_PATH="/home/${USER}/venv"
 COPY requirements.txt /tmp/
 COPY Makefile /tmp/
