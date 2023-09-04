@@ -1,4 +1,4 @@
-from main import mini_subtract
+from main import sanity_add
 
-def test_mini_subtract():
-    assert mini_subtract(2,1) == 1
+def test_sanity_add():
+  assert sanity_add(2, 3) == 5
