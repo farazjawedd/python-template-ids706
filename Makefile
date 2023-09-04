@@ -6,7 +6,7 @@ test:
 	python -m pytest -vv --cov=sorc.main
 
 format:	
-	black src/*.py 
+	black sorc/*.py 
 
 lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py sorc/*.py
